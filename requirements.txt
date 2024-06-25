@@ -2,3 +2,4 @@ flask
 flasgger
 python-xero
 python-dotenv
+requests
