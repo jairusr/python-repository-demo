@@ -1,5 +1,6 @@
 flask
 flasgger
+flask_session
 python-xero
 python-dotenv
 requests
