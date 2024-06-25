@@ -1,0 +1,4 @@
+flask
+flasgger
+python-xero
+python-dotenv

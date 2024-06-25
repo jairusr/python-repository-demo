@@ -9,7 +9,13 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "env": {
+                "ClientID": "D1F69B0850CC4024BB207D65DD8BC3F3",
+                "ClientSecret": "CYdKlyGCk8UhxhFFsQw5-B60BU8WrFe5ZaSPyyclFFLmNCbg",
+                "Tenant": "20b5b4e3-bdb7-4249-9926-cb8633a1a51c",
+                "Debug": "True"
+            }
         }
     ]
 }

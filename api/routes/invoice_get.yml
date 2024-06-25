@@ -1,0 +1,24 @@
+parameters:
+  - name: invoice_id
+    in: path
+    required: true
+    type: string
+    description: The unique identifier for the invoice.
+
+responses:
+  200:
+    description: Returns the invoice details.
+    schema:
+      type: object
+      properties:
+        invoice_id:
+          type: string
+          example: '12345'
+        amount:
+          type: number
+          example: 100.00
+        status:
+          type: string
+          example: 'Paid'
+  404:
+    description: Invoice not found.

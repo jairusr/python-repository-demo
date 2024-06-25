@@ -162,4 +162,4 @@ cython_debug/
 #.idea/
 bin/
 lib64
-python-xero-demo/pyvenv.cfg
+pyvenv.cfg
