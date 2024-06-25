@@ -18,7 +18,6 @@ Python-Repository-Demo/       # Solution-equivalent
 │   └── ...
 │
 └── tkinter/                  # UI layer, interacts with API
-    ├── main.py               # Main entry point for the Tkinter app
     ├── gui.py                # GUI setup and logic
     └── ...
 
